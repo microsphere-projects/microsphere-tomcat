@@ -16,13 +16,21 @@
 
     <name>Microsphere :: Tomcat</name>
     <description>Microsphere Projects for Apache Tomcat</description>
+    <url>https://github.com/microsphere-projects/microsphere-tomcat</url>
 
-    <scm>
-        <url>https://github.com/microsphere-projects/microsphere-tomcat</url>
-        <connection>scm:git:git://github.com/microsphere-projects/microsphere-tomcat.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/microsphere-projects/microsphere-tomcat.git
-        </developerConnection>
-    </scm>
+
+    <organization>
+        <name>Microsphere</name>
+        <url>https://github.com/microsphere-projects</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
@@ -37,6 +45,13 @@
             </roles>
         </developer>
     </developers>
+
+    <scm>
+        <url>https://github.com/microsphere-projects/microsphere-tomcat</url>
+        <connection>scm:git:git://github.com/microsphere-projects/microsphere-tomcat.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/microsphere-projects/microsphere-tomcat.git
+        </developerConnection>
+    </scm>
 
     <properties>
         <revision>0.0.1-SNAPSHOT</revision>
